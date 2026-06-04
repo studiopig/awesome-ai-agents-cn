@@ -224,6 +224,18 @@
 
 ---
 
+## 🧩 Studiopig Agent Stack
+
+Awesome AI Agents CN 是 [Studiopig Agent Stack](https://github.com/studiopig) 的一部分——一套面向中文开发者的轻量本地 AI Agent 基础设施：
+
+- 📋 awesome-ai-agents-cn — 中文 Agent 选型入口
+- 🔧 [mcp-toolkit](https://github.com/studiopig/mcp-toolkit) — 安全默认的本地 Agent 工具箱
+- 🧠 [agent-memory-lite](https://github.com/studiopig/agent-memory-lite) — 本地 Agent 长期记忆层
+
+三个项目互相独立，组合使用可覆盖本地 Agent 的发现→工具→记忆全链路。
+
+---
+
 ## ⭐ Star History
 
 如果这个列表对你有帮助，请给个 ⭐ 支持一下！
