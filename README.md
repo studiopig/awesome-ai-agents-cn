@@ -4,8 +4,10 @@
 > 
 > A curated list of AI Agent resources with Chinese-language focus.
 > 
-> [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-> [![Stars](https://img.shields.io/github/stars/studiopig/awesome-ai-agents-cn?style=social)](https://github.com/studiopig/awesome-ai-agents-cn)
+| [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+| [![Stars](https://img.shields.io/github/stars/studiopig/awesome-ai-agents-cn?style=social)](https://github.com/studiopig/awesome-ai-agents-cn)
+
+> 📅 最后更新：2026-06-04 | ⚠️ Star 数和成熟度评分可能已变化，以各项目主页为准
 
 ---
 
@@ -229,6 +231,24 @@
 | [Prompt Engineering Guide CN](https://www.promptingguide.ai/zh) | 中文提示工程指南 |
 | 即刻 - AI Agent 圈 | 即刻 App AI Agent 话题 |
 | Twitter/X - #AIAgent | AI Agent 中文讨论 |
+
+---
+
+## 🇨🇳 国产模型适配
+
+*主流国产大模型在 Agent 场景下的兼容情况。*
+
+| 模型 | Agent 框架兼容 | MCP 支持 | 推荐场景 |
+|------|:--:|:--:|------|
+| DeepSeek V3/V4 | ✅ OpenAI 兼容 API | ✅ | 高性价比通用 Agent |
+| Qwen 系列 | ✅ OpenAI 兼容 API | ✅ | 中文理解最强 |
+| GLM-5 | ✅ OpenAI 兼容 API | ✅ | 编程 Agent |
+| Kimi K2 | ✅ OpenAI 兼容 API | ✅ | 长上下文 Agent |
+| MiMo V2.5 | ✅ OpenAI 兼容 API | 部分 | 推理密集型 Agent |
+| MiniMax M2.5 | ✅ OpenAI 兼容 API | 部分 | Agent 特化场景 |
+| 混元 Hy3 | ✅ OpenAI 兼容 API | ✅ | 超高性价比 Agent |
+
+> 以上信息基于 2026-06 公开资料。国产模型大多兼容 OpenAI API 格式，可直接接入支持自定义 API 的 Agent 框架。具体兼容性以各项目最新文档为准。
 
 ---
 
