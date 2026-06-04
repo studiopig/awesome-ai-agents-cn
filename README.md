@@ -26,21 +26,35 @@
 
 ---
 
+## 📊 评分标准
+
+每个项目标注三项指标，帮助快速评估：
+
+| 指标 | 选项 | 说明 |
+|------|------|------|
+| 🏷️ **成熟度** | 🟢 稳定 · 🟡 Beta · 🔴 实验 | 生产就绪程度。🟢=有稳定 release/大厂维护 |
+| 🌏 **中文支持** | ●●● 完整 · ●● 部分 · ● 极少 | 中文文档/社区/模型兼容性 |
+| 📜 **协议** | MIT · Apache-2.0 · 自定义 | 开源协议类型 |
+
+> 💡 评分基于公开信息，有偏差请提 PR 更正。
+
+---
+
 ## 🏗 Agent 框架
 
 *Frameworks for building AI agents.*
 
-| 项目 | Stars | 描述 |
-|------|-------|------|
-| [LangGraph](https://github.com/langchain-ai/langgraph) | ![Stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=flat) | 有向图编排 Agent 工作流，LangChain 出品 |
-| [CrewAI](https://github.com/crewAIInc/crewAI) | ![Stars](https://img.shields.io/github/stars/crewAIInc/crewAI?style=flat) | 角色化多 Agent 协作框架 |
-| [AutoGen](https://github.com/microsoft/autogen) | ![Stars](https://img.shields.io/github/stars/microsoft/autogen?style=flat) | 微软多 Agent 对话框架 |
-| [MetaGPT](https://github.com/FoundationAgents/MetaGPT) | ![Stars](https://img.shields.io/github/stars/FoundationAgents/MetaGPT?style=flat) | 模拟软件公司的多 Agent 协作 |
-| [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) | ![Stars](https://img.shields.io/github/stars/openai/openai-agents-python?style=flat) | OpenAI 官方 Agent SDK |
-| [Google ADK](https://github.com/google/adk-python) | ![Stars](https://img.shields.io/github/stars/google/adk-python?style=flat) | Google Agent Development Kit |
-| [Dify](https://github.com/langgenius/dify) | ![Stars](https://img.shields.io/github/stars/langgenius/dify?style=flat) | 开源 LLM 应用开发平台，可视化 Agent 编排 |
-| [Smolagents](https://github.com/huggingface/smolagents) | ![Stars](https://img.shields.io/github/stars/huggingface/smolagents?style=flat) | HuggingFace 轻量 Code Agent |
-| [Mastra](https://github.com/mastra-ai/mastra) | ![Stars](https://img.shields.io/github/stars/mastra-ai/mastra?style=flat) | TypeScript 原生 Agent 框架 |
+| 项目 | Stars | 成熟度 | 中文 | 协议 | 描述 |
+|------|-------|:------:|:----:|:----:|------|
+| [LangGraph](https://github.com/langchain-ai/langgraph) | ![Stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=flat) | 🟢 | ●● | MIT | 有向图编排 Agent 工作流，LangChain 出品 |
+| [CrewAI](https://github.com/crewAIInc/crewAI) | ![Stars](https://img.shields.io/github/stars/crewAIInc/crewAI?style=flat) | 🟢 | ●● | MIT | 角色化多 Agent 协作框架 |
+| [AutoGen](https://github.com/microsoft/autogen) | ![Stars](https://img.shields.io/github/stars/microsoft/autogen?style=flat) | 🟢 | ●● | MIT | 微软多 Agent 对话框架 |
+| [MetaGPT](https://github.com/FoundationAgents/MetaGPT) | ![Stars](https://img.shields.io/github/stars/FoundationAgents/MetaGPT?style=flat) | 🟡 | ●●● | MIT | 模拟软件公司的多 Agent 协作（国产） |
+| [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) | ![Stars](https://img.shields.io/github/stars/openai/openai-agents-python?style=flat) | 🟢 | ● | Apache-2.0 | OpenAI 官方 Agent SDK |
+| [Google ADK](https://github.com/google/adk-python) | ![Stars](https://img.shields.io/github/stars/google/adk-python?style=flat) | 🟡 | ● | Apache-2.0 | Google Agent Development Kit |
+| [Dify](https://github.com/langgenius/dify) | ![Stars](https://img.shields.io/github/stars/langgenius/dify?style=flat) | 🟢 | ●●● | Apache-2.0 | 开源 LLM 应用开发平台（国产） |
+| [Smolagents](https://github.com/huggingface/smolagents) | ![Stars](https://img.shields.io/github/stars/huggingface/smolagents?style=flat) | 🟡 | ● | Apache-2.0 | HuggingFace 轻量 Code Agent |
+| [Mastra](https://github.com/mastra-ai/mastra) | ![Stars](https://img.shields.io/github/stars/mastra-ai/mastra?style=flat) | 🟡 | ● | MIT | TypeScript 原生 Agent 框架 |
 
 ---
 
@@ -75,15 +89,15 @@
 
 *AI 编程助手与自主开发 Agent。*
 
-| 项目 | Stars | 描述 |
-|------|-------|------|
-| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | 60K+ | 全栈自主编程 Agent |
-| [Cline](https://github.com/cline/cline) | 49K+ | VS Code 内 AI 编程助手 |
-| [Codex CLI](https://github.com/openai/codex) | 44K+ | OpenAI 终端编程 Agent |
-| [Continue](https://github.com/continuedev/continue) | 28K+ | 开源 AI 代码助手 |
-| [Aider](https://github.com/Aider-AI/aider) | 20K+ | 终端 AI 结对编程 |
-| [OpenCode](https://github.com/anomalyco/opencode) | 55K+ | 开源编程 CLI Agent |
-| [Devin](https://github.com/cognition-labs/devin) | — | 首个 AI 软件工程师 |
+| 项目 | Stars | 成熟度 | 中文 | 描述 |
+|------|-------|:------:|:----:|------|
+| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | 60K+ | 🟢 | ●● | 全栈自主编程 Agent |
+| [Cline](https://github.com/cline/cline) | 49K+ | 🟢 | ●● | VS Code 内 AI 编程助手 |
+| [Codex CLI](https://github.com/openai/codex) | 44K+ | 🟢 | ● | OpenAI 终端编程 Agent |
+| [Continue](https://github.com/continuedev/continue) | 28K+ | 🟢 | ●● | 开源 AI 代码助手 |
+| [Aider](https://github.com/Aider-AI/aider) | 20K+ | 🟢 | ● | 终端 AI 结对编程 |
+| [OpenCode](https://github.com/anomalyco/opencode) | 55K+ | 🟡 | ● | 开源编程 CLI Agent |
+| [Devin](https://github.com/cognition-labs/devin) | — | 🟡 | ● | 首个 AI 软件工程师 |
 
 ---
 
