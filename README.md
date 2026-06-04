@@ -44,6 +44,8 @@
 
 *Frameworks for building AI agents.*
 
+> **怎么选：** 刚接触 Agent 开发？从 **LangGraph** 或 **CrewAI** 入门——文档最全、中文资料最多。需要生产级稳定性和多 Agent 协作？看 **AutoGen**（微软）或 **Dify**（国产全栈）。追求极简和可控？**MetaGPT** 模拟软件公司流程，**Smolagents** 轻到只有几个文件。如果你已经用 OpenAI/Gemini API，直接用官方 SDK 最省事。
+
 | 项目 | Stars | 成熟度 | 中文 | 协议 | 描述 |
 |------|-------|:------:|:----:|:----:|------|
 | [LangGraph](https://github.com/langchain-ai/langgraph) | ![Stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=flat) | 🟢 | ●● | MIT | 有向图编排 Agent 工作流，LangChain 出品 |
@@ -61,6 +63,8 @@
 ## 🔌 MCP 生态
 
 *Model Context Protocol — AI Agent 的工具标准协议。*
+
+> **怎么选：** 先看 **MCP 官方 SDK**——Python 和 TypeScript 都有，五分钟能跑通。需要现成的工具？从官方 Servers 仓库挑——文件系统、GitHub、数据库都是开箱即用。做多工具整合去 **MCP Market** 或 **Smithery** 搜现成的。
 
 ### MCP 官方资源
 - [MCP 规范](https://modelcontextprotocol.io/) — 官方协议文档
@@ -89,6 +93,8 @@
 
 *AI 编程助手与自主开发 Agent。*
 
+> **怎么选：** VS Code 用户首选 **Cline** 或 **Continue**——直接装插件，零配置。终端党用 **Aider**（结对编程）或 **Codex CLI**（全自动）。需要完整自主开发能力（写PR、修Bug、部署）看 **OpenHands**。想试试"AI 软件工程师"完整体验的看 **Devin**。
+
 | 项目 | Stars | 成熟度 | 中文 | 描述 |
 |------|-------|:------:|:----:|------|
 | [OpenHands](https://github.com/All-Hands-AI/OpenHands) | 60K+ | 🟢 | ●● | 全栈自主编程 Agent |
@@ -105,6 +111,8 @@
 
 *Web 自动化与自主浏览 Agent。*
 
+> **怎么选：** 做网页数据提取或表单填写？**Browser Use** 最成熟。需要 MCP 协议兼容？**Playwright MCP** 微软官方出品。做轻量网页操作看 **Stagehand**（自然语言驱动）。
+
 | 项目 | 描述 |
 |------|------|
 | [Browser Use](https://github.com/browser-use/browser-use) | AI Agent 浏览器自动化框架 |
@@ -117,6 +125,8 @@
 ## 🤝 多 Agent 编排
 
 *Multi-Agent orchestration & patterns。*
+
+> **怎么选：** 需要 Agent 之间互相通信？看 **Google A2A**——这是协议标准。做复杂任务分解和并行执行？**Dapr Agents**（微软）或 **TaskWeaver** 提供代码优先的编排能力。
 
 | 项目 | 描述 |
 |------|------|
@@ -131,6 +141,8 @@
 
 *Long-term memory & context management for agents。*
 
+> **怎么选：** 先想清楚需求——需要本地、轻量、可解释？**Mem0** 或 Memary。需要知识图谱？**Cognee**。需要上下文压缩而非存储？**Headroom**。
+
 | 项目 | 描述 |
 |------|------|
 | [Headroom](https://github.com/chopratejas/headroom) | 上下文压缩，10K+ stars |
@@ -144,6 +156,8 @@
 
 *Agent evaluation & benchmarking。*
 
+> **怎么选：** 评测 Coding Agent？用 **SWE-bench**（软件工程标准）。评测通用能力？**GAIA**。评测 Web 操作？**WebArena**。中文和多维评测看清华 **AgentBench**。
+
 | 项目 | 描述 |
 |------|------|
 | [SWE-bench](https://github.com/SWE-bench/SWE-bench) | 软件工程 Agent 评测 |
@@ -156,6 +170,8 @@
 ## 🚀 开源 Agent 产品
 
 *Production-ready open-source agent products。*
+
+> **怎么选：** 想自建 ChatGPT 替代品？**Open WebUI** 或 **LobeChat**。要做低代码/拖拽式 Agent 编排？**Langflow** 或 **Flowise**。需要中文知识库问答？**FastGPT** 或 **MaxKB** 国产方案。
 
 | 项目 | 描述 |
 |------|------|
@@ -173,6 +189,8 @@
 
 *Key papers in AI agent research (2023-2026)。*
 
+> **怎么选：** 想理解"Agent 为什么能用工具"？从 **ReAct** 开始——这是思想源头。做 Coding Agent 看 **SWE-Agent** 和 **Devin**。关注多 Agent 协作？**Agent-as-a-Judge** 和 **The Agent Company** 展示了最新范式。
+
 | 论文 | 描述 |
 |------|------|
 | [ReAct](https://arxiv.org/abs/2210.03629) | Reasoning + Acting 模式 |
@@ -186,6 +204,8 @@
 ---
 
 ## 📚 教程与课程
+
+> **怎么选：** 想系统学？**HuggingFace Agents Course** 免费且全面。偏实操？**DeepLearning.AI 多 Agent 课程** 由 Andrew Ng 主讲。需要企业级模式？Anthropic 和 OpenAI 的官方 Agent 指南是最佳实践。
 
 | 资源 | 描述 |
 |------|------|
