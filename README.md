@@ -7,7 +7,7 @@
 | [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 | [![Stars](https://img.shields.io/github/stars/studiopig/awesome-ai-agents-cn?style=social)](https://github.com/studiopig/awesome-ai-agents-cn)
 
-> 📅 最后更新：2026-06-04 | ⚠️ Star 数和成熟度评分可能已变化，以各项目主页为准
+> 📅 最后更新：2026-06-05 | ⚠️ Star 数和成熟度评分可能已变化，以各项目主页为准
 
 ---
 
@@ -99,13 +99,13 @@
 
 | 项目 | Stars | 成熟度 | 中文 | 描述 |
 |------|-------|:------:|:----:|------|
-| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | 60K+ | 🟢 | ●● | 全栈自主编程 Agent |
-| [Cline](https://github.com/cline/cline) | 49K+ | 🟢 | ●● | VS Code 内 AI 编程助手 |
-| [Codex CLI](https://github.com/openai/codex) | 44K+ | 🟢 | ● | OpenAI 终端编程 Agent |
-| [Continue](https://github.com/continuedev/continue) | 28K+ | 🟢 | ●● | 开源 AI 代码助手 |
-| [Aider](https://github.com/Aider-AI/aider) | 20K+ | 🟢 | ● | 终端 AI 结对编程 |
-| [OpenCode](https://github.com/anomalyco/opencode) | 55K+ | 🟡 | ● | 开源编程 CLI Agent |
-| [Devin](https://github.com/cognition-labs/devin) | — | 🟡 | ● | 首个 AI 软件工程师 |
+| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | ![Stars](https://img.shields.io/github/stars/All-Hands-AI/OpenHands?style=flat) | 🟢 | ●● | 全栈自主编程 Agent |
+| [Cline](https://github.com/cline/cline) | ![Stars](https://img.shields.io/github/stars/cline/cline?style=flat) | 🟢 | ●● | VS Code 内 AI 编程助手 |
+| [Codex CLI](https://github.com/openai/codex) | ![Stars](https://img.shields.io/github/stars/openai/codex?style=flat) | 🟢 | ● | OpenAI 终端编程 Agent |
+| [Continue](https://github.com/continuedev/continue) | ![Stars](https://img.shields.io/github/stars/continuedev/continue?style=flat) | 🟢 | ●● | 开源 AI 代码助手 |
+| [Aider](https://github.com/Aider-AI/aider) | ![Stars](https://img.shields.io/github/stars/Aider-AI/aider?style=flat) | 🟢 | ● | 终端 AI 结对编程 |
+| [OpenCode](https://github.com/anomalyco/opencode) | ![Stars](https://img.shields.io/github/stars/anomalyco/opencode?style=flat) | 🟡 | ● | 开源编程 CLI Agent |
+| [Devin](https://github.com/cognition-labs/devin) | 🔒 私有 | 🟡 | ● | 首个 AI 软件工程师 |
 
 ---
 
@@ -132,7 +132,7 @@
 
 | 项目 | 描述 |
 |------|------|
-| [Agency Agents](https://github.com/msitarzewski/agency-agents) | 完整 AI 代理机构，+23K stars/周 |
+| [Agency Agents](https://github.com/msitarzewski/agency-agents) | 完整 AI 代理机构，100K+ stars |
 | [Agent Protocol (A2A)](https://github.com/google/A2A) | Google Agent-to-Agent 通信协议 |
 | [Dapr Agents](https://github.com/dapr/dapr-agents) | 微软 Dapr Agent 框架 |
 | [TaskWeaver](https://github.com/microsoft/TaskWeaver) | 微软代码优先 Agent 框架 |
@@ -147,7 +147,7 @@
 
 | 项目 | 描述 |
 |------|------|
-| [Headroom](https://github.com/chopratejas/headroom) | 上下文压缩，10K+ stars |
+| [Headroom](https://github.com/chopratejas/headroom) | 上下文压缩，14K+ stars |
 | [Mem0](https://github.com/mem0ai/mem0) | 智能记忆层 |
 | [Memary](https://github.com/kingjulio8238/memary) | Agent 长期记忆 |
 | [Cognee](https://github.com/topoteretes/cognee) | 知识图谱 + Agent 记忆 |
