@@ -166,6 +166,7 @@
 | [GAIA](https://github.com/gaia-benchmark/gaia) | 通用 AI Agent 评测 |
 | [WebArena](https://github.com/web-arena-x/webarena) | Web Agent 评测环境 |
 | [AgentBench](https://github.com/THUDM/AgentBench) | 清华 Agent 多维评测 |
+| [Agent QA](https://github.com/vostride/agent-qa) | 用自然语言编写 Web 与移动端测试的 Agentic QA 工具，提供 CLI 与 MCP 接口 |
 
 ---
 
