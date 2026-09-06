@@ -184,6 +184,7 @@
 | [FastGPT](https://github.com/labring/FastGPT) | 中文知识库 + Agent |
 | [MaxKB](https://github.com/1Panel-dev/MaxKB) | 中文知识库问答系统 |
 | [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) | 全栈 AI 应用 |
+| [Orkas](https://github.com/Orkas-AI/Orkas) | 开源、本地优先的 AI 团队桌面应用，由 Commander 通过一个对话协调专业 Agent 完成复杂工作。 |
 
 ---
 
